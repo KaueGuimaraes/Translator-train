@@ -9,8 +9,6 @@ presente = PRESENTE_DEF.copy()
 passado = [[]]
 participio = [[]]
 
-CENTER = 20
-
 
 def get_word(list, number, delete=True):
     try:
