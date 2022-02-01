@@ -1,0 +1,4 @@
+['add', ['adicionar'], 'added', 'added'],	['arise', ['erguer', 'levantar'], 'arose', 'arisen'],
+['awake', ['acordar', 'despertar'], 'awoke', 'awoken'],	['answer', ['responder'], 'answered', 'answered'],
+['ask', ['perguntar'], 'asked', 'asked'],	['be', ['ser', 'estar'], 'was-were', 'been'],
+
