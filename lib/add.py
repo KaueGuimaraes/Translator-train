@@ -4,7 +4,7 @@ from arquivo import * # Importar cada função do arquivo
 lista = list() # Crio uma lista
 cont = 0 # Inicio o contador
 
-color = '\033[32m' # Escolho a cor principal
+color = '\033[36m' # Escolho a cor principal
 color_final = '\033[m' # Seto a cor final
 
 leave = False # Falo que o usuário não quer sair
@@ -55,3 +55,5 @@ while True: # Enquanto verdadeiro
 
     criarArquivo('save.txt') # Resetarei o save
     write('save.txt', save) # Salvo
+
+    print(f'\033[32m"{presente}" foi adicionado com sucesso!{color_final}\n')

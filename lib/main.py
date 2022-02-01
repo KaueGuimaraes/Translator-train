@@ -1,9 +1,10 @@
 from random import randint
 
 
-presente = [['add', ['adicionar'], 'added', 'added'],                 ['arise', ['erguer', 'levantar'], 'arose', 'arisen'],
+PRESENTE_DEF = [['add', ['adicionar'], 'added', 'added'],                 ['arise', ['erguer', 'levantar'], 'arose', 'arisen'],
             ['awake', ['acordar', 'despertar'], 'awoke', 'awoken'],   ['answer', ['responder'], 'answered', 'answered'],
-            ['ask']]
+            ]
+presente = PRESENTE_DEF.copy()
 # 0 = palavra     1 = traduções     2 = passado     3 = particípio
 passado = [[]]
 participio = [[]]
@@ -20,16 +21,25 @@ def get_word(list, number, delete=True):
         return 0
 
 
+print('\nPS: Se sua resposta for "leave" ou "sair" você volta para o menu de opções\n')
+
 while True:
     try:
-        choice = int(input('0 - Inglês para Português\n1 - Português para Inglês\n2 - Sair\n: '))
+        choice = int(input('1 - Inglês para Português\n2 - Português para Inglês\n3 - Reiniciar\n0 - Sair\n: '))
     except:
         print('ERRO: Tente novamente')
     
     # Sair
-    if choice == 2:
+    if choice == 0:
         print('\n\033[34mSo long!\033[m')
         break
+    #
+
+    # Reiniciar
+    if choice == 3:
+        presente = PRESENTE_DEF
+        print('\n\033[32mReiniciado com sucesso!\033[m\n')
+        continue
     #
 
     while True:
@@ -40,11 +50,11 @@ while True:
         #
         
         # Inglês para Português
-        if choice == 0: 
+        if choice == 1: 
             num = randint(0, len(presente) - 1)
             atual_list = presente[num]
 
-            resp = str(input(f'O que significa {atual_list[0]}? ')).lower().strip()
+            resp = str(input(f'O que significa {atual_list[0]}? ')).lower().strip(' ')
 
             # Sair
             if resp == 'leave' or resp == 'sair':
@@ -79,11 +89,11 @@ while True:
         #
 
         # Português para Inglês
-        elif choice == 1: 
+        elif choice == 2: 
             num = randint(0, len(presente) - 1)
             atual_list = presente[num]
 
-            resp = str(input(f'O que significa {atual_list[1][0]}? ')).lower().strip()
+            resp = str(input(f'O que significa {atual_list[1][0]}? ')).lower().strip(' ')
 
             # Sair
             if resp == 'leave' or resp == 'sair':
