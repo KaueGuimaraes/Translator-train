@@ -14,6 +14,7 @@ while True: # Enquanto verdadeiro
         presente = str(input(f'{color}Presente:{color_final} ')).lower() # Pergunta ao usuário o presente
         if presente == 'mostre-me' or presente == 'show-me': # Se o usuário pedir para mostras as informações
             cont = 0 # O contador será igual a 0
+            print('[', end = '')
             for c in lista: # Para cada item na lista
                 cont += 1 # o contador será += 1
                 if cont == 1: # Se o contador for 1
@@ -22,6 +23,7 @@ while True: # Enquanto verdadeiro
                     print(f'{c},', end='') # Vai mostrar no final da linha
                     cont = 0 # E o contador será igual a 0
             cont = 0 # O contador será igual a 0
+            print('\n]')
             print('\n\n') # Irei pular 2 linhas
         elif presente == 'saia': # Se não se o usuário quiser sair do programa
             leave = True # Sair será verdadeiro
@@ -57,3 +59,4 @@ while True: # Enquanto verdadeiro
     write('save.txt', save) # Salvo
 
     print(f'\033[32m"{presente}" foi adicionado com sucesso!{color_final}\n')
+    

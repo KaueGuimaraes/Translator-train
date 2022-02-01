@@ -1,13 +1,10 @@
 from random import randint
 
+import lista
 
-PRESENTE_DEF =  [['add', ['adicionar'], 'added', 'added'],	['arise', ['erguer', 'levantar'], 'arose', 'arisen'],
-                ['awake', ['acordar', 'despertar'], 'awoke', 'awoken'],	['answer', ['responder'], 'answered', 'answered'],
-                ['ask', ['perguntar'], 'asked', 'asked'],	['be', ['ser', 'estar'], 'was-were', 'been'],]
+
+PRESENTE_DEF = lista.get()
 presente = PRESENTE_DEF.copy()
-# 0 = palavra     1 = traduções     2 = passado     3 = particípio
-passado = [[]]
-participio = [[]]
 
 
 def get_word(list, number, delete=True):
@@ -84,6 +81,8 @@ while True:
             print(f'Participio:\033[34m{atual_list[3] :>20}\033[m')
             print(f'\nPossíveis traduções: \033[33m{trad}\033[m\n')
             #
+
+            print('\n' * 50)
         #
 
         # Português para Inglês
@@ -123,6 +122,8 @@ while True:
             print(f'Participio:\033[34m{atual_list[3] :>20}\033[m')
             print(f'\nPossíveis traduções: \033[33m{trad}\033[m\n')
             #
+
+            print('\n' * 50)
         #
             
         else:
