@@ -1,9 +1,9 @@
 from random import randint
 
 
-PRESENTE_DEF = [['add', ['adicionar'], 'added', 'added'],                 ['arise', ['erguer', 'levantar'], 'arose', 'arisen'],
-            ['awake', ['acordar', 'despertar'], 'awoke', 'awoken'],   ['answer', ['responder'], 'answered', 'answered'],
-            ]
+PRESENTE_DEF =  [['add', ['adicionar'], 'added', 'added'],	['arise', ['erguer', 'levantar'], 'arose', 'arisen'],
+                ['awake', ['acordar', 'despertar'], 'awoke', 'awoken'],	['answer', ['responder'], 'answered', 'answered'],
+                ['ask', ['perguntar'], 'asked', 'asked'],	['be', ['ser', 'estar'], 'was-were', 'been'],]
 presente = PRESENTE_DEF.copy()
 # 0 = palavra     1 = traduções     2 = passado     3 = particípio
 passado = [[]]
