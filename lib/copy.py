@@ -12,7 +12,7 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
         ['cast', ['arremessar', 'jogar'], 'cast', 'cast'],      ['carry', ['carregar'], 'carried', 'carried'],
         ['catch', ['pegar', 'adquirir'], 'caught', 'caught'],   ['change', ['mudar'], 'changed', 'changed'],
         ['choose', ['escolher', 'selecionar'], 'chose', 'chosen'],      ['close', ['fechar'], 'closed', 'closed'],
-        
+
         #
 
         ['come', ['vir'], 'came', 'come'],      ['cost', ['custar'], 'cost', 'cost'],
@@ -28,9 +28,9 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
         ['fly', ['voar'], 'flew', 'flown'],     ['follow', ['seguir'], 'followed', 'followed'],
         ['forbid', ['proibir'], 'forbade', 'forbidden'],        ['forget', ['esquecer-se'], 'forgot', 'forgotten'],
         ['forgive', ['perdoar'], 'forgave', 'forgiven'],        ['forsake', ['abandonar', 'deserdar'], 'forsook', 'forsaken'],
-        ['freeze', ['congelar'], 'froze', 'frozen'],    ['get', ['conseguir', 'obter', 'pegar'], 'got', 'got'],
+        ['freeze', ['congelar'], 'froze', 'frozen'],    ['get', ['pegar', 'obter', 'conseguir'], 'got', 'got'],
         ['give', ['dar'], 'gave', 'given'],     ['go', ['ir'], 'went', 'gone'],
-        ['feed', ['alimentar', 'nutrir'], 'fed', 'fed'],
+        ['feed', ['alimentar', 'nutrir'], 'fed', 'fed'],	
         
         #
 
@@ -49,7 +49,7 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
         ['like', ['gostar'], 'liked', 'liked'],	['listen', ['escutar'], 'listened', 'listened'],
         ['live', ['viver'], 'lived', 'lived'],	['look', ['olhar'], 'looked', 'looked'],
         ['lose', ['perder'], 'lost', 'lost'],	['love', ['amar'], 'loved', 'loved'],
-        ['make', ['fazer', 'produzir'], 'made', 'made'],
+        ['make', ['fazer', 'produzir'], 'made', 'made'],	
         
         #
         
@@ -68,7 +68,50 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
         ['sell', ['vender'], 'sold', 'sold'],	['set', ['por', 'ajustar'], 'set', 'set'],
         ['sew', ['costurar'], 'sewed', 'sewn'],	['shake', ['sacudir', 'agitar', 'apertar-a-mao'], 'shook', 'shaken'],
         ['shave', ['barbear'], 'shaved', 'shaved'],	['shine', ['brilhar'], 'shone', 'shone'],
-        ['shoot', ['atirar', 'ferir-com-tiro'], 'shot', 'shot'],]
+        ['shoot', ['atirar', 'ferir-com-tiro'], 'shot', 'shot'],	
+        
+        #
+        
+        ['show', ['mostrar', 'atirar'], 'showed', 'show'],
+        ['shred', ['picar', 'retalhar', 'rasgar', 'cortar-em-pedacos'], 'shred', 'shred'],	['shrink', ['contrair', 'encolher'], 'shrank', 'shrunk'],
+        ['shut', ['tampar', 'cerrar', 'fechar'], 'shut', 'shut'],	['sing', ['cantar'], 'sang', 'sung'],
+        ['sink', ['afundar'], 'sank', 'sunk'],	['sit', ['sentar-se'], 'sat', 'sat'],
+        ['slay', ['matar', 'assassinar', 'arruinar', 'destruir'], 'slew', 'slain'],	['sleep', ['dormir'], 'slept', 'slept'],
+        ['slide', ['deslizar', 'escorregar'], 'slid', 'slid'],	['smell', ['cheirar'], 'smelt', 'smelt'],
+        ['sow', ['semear'], 'sowed', 'sown'],	['speak', ['falar', '(mododefalar)'], 'spoke', 'spoken'],
+        ['spell', ['soletrar'], 'spelt', 'spelt'],	['spend', ['gastar-dinheiro', 'gastar-tempo'], 'spent', 'spent'],
+        ['spill', ['derramar'], 'spilt', 'spilt'],	['spin', ['girar'], 'spun', 'spun'],
+        ['spoil', ['estragar', 'destruir', 'mimar'], 'spoilt', 'spoilt'],	['spread', ['espalhar', 'estender'], 'spread', 'spread'],
+        ['spring', ['saltar', 'lancar-se'], 'sprang', 'sprung'],	['stand', ['por-se-de-pe'], 'stood', 'stood'],
+        ['start', ['comecar'], 'started', 'started'],	['stay', ['ficar'], 'stayed', 'stayed'],
+        ['steal', ['roubar'], 'stole', 'stolen'],	['stick', ['fincar', 'gravar'], 'stuck', 'stuck'],
+        ['sting', ['picar', 'ferroar'], 'stung', 'stung'],	['stink', ['enjoar', 'feder'], 'stank', 'stunk'],
+        ['stop', ['parar'], 'stopped', 'stopped'],	['strick', ['bater', 'golpear'], 'struck', 'struck'],
+
+        #
+
+        ['string', ['amarrar', 'pendurar', 'enfiar'], 'strung', 'strung'],	['strive', ['aspirar', 'tentar', 'esforcar'], 'strove', 'striven'],
+        ['study', ['estudar'], 'studied', 'studied'],	['swear', ['jurar'], 'swore', 'sworn'],
+        ['sweat', ['suar'], 'sweat', 'sweat'],	['sweep', ['varrer'], 'swept', 'swept'],
+        ['swell', ['inchar', 'crescer', 'encher-pneus'], 'swelled', 'swollen'],	['swin', ['nadar'], 'swan', 'swun'],
+        ['swing', ['balancar'], 'swang', 'swung'],	['take', ['pegar', 'levar', 'tomar'], 'toke', 'taken'],
+        ['talk', ['conversar'], 'talked', 'talked'],	['teach', ['ensinar'], 'taught', 'taught'],
+        ['tear', ['lacrimejar'], 'tore', 'torn'],	['tell', ['contar'], 'told', 'told'],
+        ['think', ['achar', 'pensar'], 'thought', 'thought'],	['thrive', ['ter-sucesso'], 'throve', 'thriven'],
+        ['throw', ['lancar', 'atirar'], 'threw', 'thrown'],	['thrust', ['empurrar'], 'thrust', 'thrust'],
+        ['travel', ['viajar'], 'traveled', 'traveled'],	['try', ['tentar'], 'tried', 'tried'],
+        ['turn', ['girar'], 'turned', 'turned'],	['understand', ['entender', 'compreender'], 'understood', 'understood'],
+        ['use', ['usar'], 'used', 'used'],	['wait', ['esperar'], 'waited', 'waited'],
+        ['wake', ['acordar'], 'woke', 'woken'],	['walk', ['andar', 'caminhar'], 'walked', 'walked'],
+        ['want', ['querer'], 'wanted', 'wanted'],	['watch', ['assistir'], 'watched', 'watched'],
+        ['wear', ['vestir', 'usar', 'trajar'], 'wore', 'worn'],	['weave', ['lancar', 'tecer'], 'wove', 'woven'],
+
+        #
+
+        ['win', ['ganhar', 'vencer'], 'won', 'won'],	['wind', ['girar', 'enrolar-se'], 'wound', 'wound'],
+        ['work', ['trabalhar'], 'worked', 'worked'],	['write', ['ecrever'], 'wrote', 'written'],
+        ['wring', ['torcer'], 'wrung', 'wrung'],] # PASTE YOUR LIST HERE
+        # 0 = palavra     1 = traduções     2 = passado     3 = particípio
 
 
 def get():
