@@ -17,7 +17,11 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
 
         ['come', ['vir'], 'came', 'come'],      ['cost', ['custar'], 'cost', 'cost'],
         ['cover', ['cobrir'], 'covered', 'covered'],    ['cry', ['chorar'], 'cried', 'cried'],
-        ['cut', ['cortar'], 'cut', 'cut'],      ['deal', ['distribuir', 'negociar'], 'dealt', 'dealt'],
+<<<<<<< HEAD
+        ['cut', ['cortar'], 'cut', 'cut'],      ['deal', ['distribuir', 'negociar'], 'delt', 'delt'],
+=======
+        ['cut', ['cortar'], 'cut', 'cut'],      ['deal', ['negociar', 'distribuir'], 'delt', 'delt'],
+>>>>>>> b2c3746a5c59352e4631ec11aa4d28f1f97b182f
         ['dig', ['cavar', 'escavar'], 'dug', 'dug'],    ['do', ['fazer'], 'did', 'done'],
         ['draw', ['desenhar', 'extrair'], 'drew', 'drawn'],     ['drink', ['beber'], 'drank', 'drunk'],
         ['drive', ['dirigir'], 'drove', 'driven'],    ['dry', ['secar'], 'dried', 'dried'],
