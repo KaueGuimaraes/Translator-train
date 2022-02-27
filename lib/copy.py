@@ -36,7 +36,7 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
 
         ['grow', ['crescer', 'florescer'], 'grew', 'grown'],
         ['hang', ['pendurar', 'suspender'], 'hung', 'hung'],	['happen', ['acontecer'], 'happened', 'happened'],
-        ['have', ['ter'], 'had', 'had'],	['hear', ['ouvir', 'e0,scutar'], 'heard', 'heard'],
+        ['have', ['ter'], 'had', 'had'],	['hear', ['ouvir', 'escutar'], 'heard', 'heard'],
         ['help', ['ajudar'], 'helped', 'helped'],	['hide', ['esconder-se', 'ocultar'], 'hid', 'hidden'],
         ['hit', ['bater', 'chocar-se'], 'hit', 'hit'],	['hold', ['segurar', 'agarrar'], 'held', 'held'],
         ['hurt', ['machucar'], 'hurt', 'hurt'],	['keep', ['manter', 'preservar'], 'kept', 'kept'],
@@ -60,7 +60,7 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
         ['plan', ['planejar'], 'planned', 'planned'],	['play', ['jogar', 'tocar', 'brincar'], 'played', 'played'],
         ['pull', ['puxar'], 'pulled', 'pulled'],	['put', ['colocar'], 'put', 'put'],
         ['quit', ['desistir', 'abandonar'], 'quit', 'quit'],	['read', ['ler'], 'read', 'read'],
-        ['remember', ['lembrar'], 'remembered', 'remembered'],	['ride', ['cavalgar', 'andar-de-bike', 'ander-de-carro'], 'rode', 'ridden'],
+        ['remember', ['lembrar'], 'remembered', 'remembered'],	['ride', ['cavalgar', 'andar-de-bike', 'andar-de-carro'], 'rode', 'ridden'],
         ['ring', ['soar', 'tocar-campainha'], 'rang', 'rung'],	['rise', ['erguer-se', 'levantar-se'], 'rose', 'risen'],
         ['run', ['correr'], 'ran', 'run'],	['saw', ['serrar'], 'sawed', 'sawn'],
         ['say', ['dizer'], 'said', 'said'],	['see', ['ver'], 'saw', 'seen'],

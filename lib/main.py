@@ -98,7 +98,7 @@ while True:
             #
             
             # Acertou?
-            if resp in atual_list[0]:
+            if resp in atual_list[0] and resp != '':
                 print('\033[32mCorreto ✅\033[m')
                 del(presente[num])
             else:
@@ -167,7 +167,7 @@ while True:
             #
 
             # Verifica os acertos
-            if passado_true == passsado and participio_true == participio and traducao in trad: # Se o usuário acertar tudo
+            if passado_true == passsado and participio_true == participio and traducao in trad and traducao != '': # Se o usuário acertar tudo
                 del(presente[num]) # Deleto o verbo da lista
             #
 
@@ -191,7 +191,7 @@ while True:
                 print('❌') # Informa que não
             
             print(f'\nPossíveis traduções: \033[33m{trad}\033[m', end=' ') # Mostra as possíveis traduções
-            if traducao in trad: #Se tiver acertado
+            if traducao in trad and traducao != '': #Se tiver acertado
                 print('✅') # Informa que sim
             else: # Se não
                 print('❌') # Informa que não
