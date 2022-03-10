@@ -68,7 +68,25 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
         ['sell', ['vender'], 'sold', 'sold'],	['set', ['por', 'ajustar'], 'set', 'set'],
         ['sew', ['costurar'], 'sewed', 'sewn'],	['shake', ['sacudir', 'agitar', 'apertar-a-mao'], 'shook', 'shaken'],
         ['shave', ['barbear'], 'shaved', 'shaved'],	['shine', ['brilhar'], 'shone', 'shone'],
-        ['shoot', ['atirar', 'ferir-com-tiro'], 'shot', 'shot'],]
+        ['shoot', ['atirar', 'ferir-com-tiro'], 'shot', 'shot'],
+        
+        #
+        
+        ['show', ['mostrar', 'atirar'], 'showed', 'show'],
+        ['shred', ['picar', 'retalhar', 'rasgar', 'cortar-em-pedacos'], 'shred', 'shred'],	['shrink', ['contrair', 'encolher'], 'shrank', 'shrunk'],
+        ['shut', ['tampar', 'cerrar', 'fechar'], 'shut', 'shut'],	['sing', ['cantar'], 'sang', 'sung'],
+        ['sink', ['afundar'], 'sank', 'sunk'],	['sit', ['sentar-se'], 'sat', 'sat'],
+        ['slay', ['matar', 'assassinar', 'arruinar', 'destruir'], 'slew', 'slain'],	['sleep', ['dormir'], 'slept', 'slept'],
+        ['slide', ['deslizar', 'escorregar'], 'slid', 'slid'],	['smell', ['cheirar'], 'smelt', 'smelt'],
+        ['sow', ['semear'], 'sowed', 'sown'],	['speak', ['falar', '(mododefalar)'], 'spoke', 'spoken'],
+        ['spell', ['soletrar'], 'spelt', 'spelt'],	['spend', ['gastar-dinheiro', 'gastar-tempo'], 'spent', 'spent'],
+        ['spill', ['derramar'], 'spilt', 'spilt'],	['spin', ['girar'], 'spun', 'spun'],
+        ['spoil', ['estragar', 'destruir', 'mimar'], 'spoilt', 'spoilt'],	['spread', ['espalhar', 'estender'], 'spread', 'spread'],
+        ['spring', ['saltar', 'lancar-se'], 'sprang', 'sprung'],	['stand', ['por-se-de-pe'], 'stood', 'stood'],
+        ['start', ['comecar'], 'started', 'started'],	['stay', ['ficar'], 'stayed', 'stayed'],
+        ['steal', ['roubar'], 'stole', 'stolen'],	['stick', ['fincar', 'cravar'], 'stuck', 'stuck'],
+        ['sting', ['picar', 'ferroar'], 'stung', 'stung'],	['stink', ['enjoar', 'feder'], 'stank', 'stunk'],
+        ['stop', ['parar'], 'stopped', 'stopped'],	['strick', ['bater', 'golpear'], 'struck', 'struck'],]
 
 
 def get():

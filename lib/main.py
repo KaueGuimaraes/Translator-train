@@ -135,18 +135,21 @@ while True:
             passsado = str(input(f'\033[mPassado: \033[34m')).lower().strip(' ')
             # Sair
             if passsado == 'leave' or passsado == 'sair':
+                print("\033[m")
                 break
             #
 
             participio = str(input(f'\033[mParticipio: \033[34m')).lower().strip(' ')
             # Sair
             if participio == 'leave' or participio == 'sair':
+                print("\033[m")
                 break
             #
 
             traducao = str(input(f'\033[mTraducao: \033[34m')).lower().strip(' ')
             # Sair
             if traducao == 'leave' or traducao == 'sair':
+                print("\033[m")
                 break
             #
 
@@ -169,6 +172,7 @@ while True:
             # Verifica os acertos
             if passado_true == passsado and participio_true == participio and traducao in trad and traducao != '': # Se o usuário acertar tudo
                 del(presente[num]) # Deleto o verbo da lista
+                print("deletou")
             #
 
             print(f'\t\t\033[1;34;40mRESPOSTAS\033[m')

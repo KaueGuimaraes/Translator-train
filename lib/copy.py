@@ -84,7 +84,7 @@ LISTA = [['add', ['adicionar'], 'added', 'added'],       ['arise', ['erguer', 'l
         ['spoil', ['estragar', 'destruir', 'mimar'], 'spoilt', 'spoilt'],	['spread', ['espalhar', 'estender'], 'spread', 'spread'],
         ['spring', ['saltar', 'lancar-se'], 'sprang', 'sprung'],	['stand', ['por-se-de-pe'], 'stood', 'stood'],
         ['start', ['comecar'], 'started', 'started'],	['stay', ['ficar'], 'stayed', 'stayed'],
-        ['steal', ['roubar'], 'stole', 'stolen'],	['stick', ['fincar', 'gravar'], 'stuck', 'stuck'],
+        ['steal', ['roubar'], 'stole', 'stolen'],	['stick', ['fincar', 'cravar'], 'stuck', 'stuck'],
         ['sting', ['picar', 'ferroar'], 'stung', 'stung'],	['stink', ['enjoar', 'feder'], 'stank', 'stunk'],
         ['stop', ['parar'], 'stopped', 'stopped'],	['strick', ['bater', 'golpear'], 'struck', 'struck'],
 
